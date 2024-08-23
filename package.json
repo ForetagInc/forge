@@ -1,0 +1,20 @@
+{
+	"name": "@foretag/forge",
+	"version": "0.1.0",
+	"dependencies": {
+		"react": "^18",
+		"react-dom": "^18",
+		"@tailwindcss/vite": "next",
+		"vinxi": "^0.4.1",
+		"@vinxi/react": "^0.2.3",
+		"@vinxi/server-components": "^0.4.1"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^1.8.3",
+		"@types/react": "^18",
+		"@types/react-dom": "^18"
+	},
+	"trustedDependencies": [
+		"@biomejs/biome"
+	]
+}
