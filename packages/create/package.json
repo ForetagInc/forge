@@ -1,0 +1,7 @@
+{
+	"name": "create-forge",
+	"version": "0.1.0",
+	"dependencies": {
+		"@clack/prompts": "^0.7.0"
+	}
+}

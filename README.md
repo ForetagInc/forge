@@ -28,7 +28,7 @@ Fullstack fulltime: Forge leverages SurrealDB as a web database, streamlining Au
 Forge can be installed through Bun and JSR:
 
 ```bash
-bun create foretaginc/forge setup
+bun create forge my-app
 ```
 
 > Please note Node, Deno and other runtimes are not supported officially

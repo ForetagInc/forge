@@ -3,10 +3,12 @@ import { createRoot } from 'react-dom/client';
 
 import 'vinxi/client';
 
-import { App } from './entry';
+import App from './entry';
 
 function AppRoot({ url }: { url: string }) {
-	return <Suspense>{ }</Suspense>;
+	return <Suspense>
+		<App />
+	</Suspense>;
 }
 
 const root = createRoot(document);

@@ -1,6 +1,10 @@
 import path from 'node:path';
 
 import { createApp } from 'vinxi';
+
+// @ts-ignore Missing types
+import pluginMDX from '@vinxi/plugin-mdx';
+// @ts-ignore Missing types
 import { serverComponents } from '@vinxi/server-components';
 
 import vitePluginTSPaths from 'vite-tsconfig-paths';

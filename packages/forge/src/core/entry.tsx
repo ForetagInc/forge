@@ -18,4 +18,4 @@ export default function App() {
 			<h1>Building a React Metaframework</h1>
 		</body>
 	</html>
-}
+};

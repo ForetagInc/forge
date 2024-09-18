@@ -1,23 +1,7 @@
 {
-	"name": "@foretag/forge",
-	"version": "0.1.0",
-	"dependencies": {
-		"@tailwindcss/vite": "next",
-		"@vinxi/react": "^0.2.3",
-		"@vinxi/server-components": "^0.4.1",
-		"create-react-signals": "^0.8.0",
-		"react": "^18",
-		"react-dom": "^18",
-		"valtio": "^1.13.2",
-		"vinxi": "^0.4.1",
-		"vite-tsconfig-paths": "^5"
-	},
-	"devDependencies": {
-		"@biomejs/biome": "^1.8.3",
-		"@types/react": "^18",
-		"@types/react-dom": "^18"
-	},
-	"trustedDependencies": [
-		"@biomejs/biome"
+	"name": "forge",
+	"private": true,
+	"workspaces": [
+		"packages/*"
 	]
 }
