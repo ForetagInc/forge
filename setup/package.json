@@ -1,0 +1,24 @@
+{
+	"name": "app",
+	"private": true,
+	"version": "0.1.0",
+	"scripts": {
+		"dev": "@foretag/forge --dev",
+		"build": "@foretag/forge --build",
+		"forge:add": "@foretag/forge add",
+		"forge:remove": "@foretag/forge remove",
+		"dev:blog": "@foretag/forge dev --site=blog",
+		"dev:landing_site": "@foretag/forge dev --site=landing_site",
+		"build:blog": "@foretag/forge build --site=blog",
+		"build:landing_site": "@foretag/forge dev --site=landing_site"
+	},
+	"dependencies": {
+		"@foretag/forge": "npm:@jsr/foretag__foretag@latest",
+		"react": "rc",
+		"react-dom": "rc"
+	},
+	"devDependencies": {
+		"@types/react": "^18",
+		"@types/react-dom": "^18"
+	}
+}
